@@ -1,12 +1,11 @@
-# Ethereum Deposit Tracker
+# Deposit Tracker - Ethereum 
 
 ## Project Overview
 
-The Ethereum Deposit Tracker monitors and records Ethereum deposits on the Beacon Deposit Contract. It tracks deposits, stores data in a PostgreSQL database, sends alerts via Telegram, and configures Grafana dashboards for visualizing the data.
+The Deposit Tracker - Ethereum  monitors and records Ethereum deposits on the Beacon Deposit Contract. It tracks deposits, stores data in a PostgreSQL database, sends alerts via Telegram, and configures Grafana dashboards for visualizing the data.
 
-## Dashboard
+## Dashboard 
 
-<img src="readme_images/dashboard.png" alt="Dashboard" width="800"/>
 
 
 ## Features
@@ -102,8 +101,6 @@ TELEGRAM_RECIPIENT_IDS=comma_separated_recipient_ids
 
 python deposit_tracker/main.py
 
-## Telegram Alert Image
-<img src="readme_images/telegram_bot_image.jpg" alt="Telegram" width="200"/>
 
 
 This script will start tracking Ethereum deposits and processing them as described in the main.py file.
