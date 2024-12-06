@@ -6,7 +6,7 @@ The Deposit tracker - Ethereum  monitors and records Ethereum deposits on the Be
 
 ## Dashboard
 
-<img src="readme_images/dashboard.png" alt="Dashboard" width="800"/>
+
 
 
 ## Features
@@ -103,7 +103,7 @@ TELEGRAM_RECIPIENT_IDS=comma_separated_recipient_ids
 python deposit_tracker/main.py
 
 ## Telegram Alert Image
-<img src="readme_images/telegram_bot_image.jpg" alt="Telegram" width="200"/>
+
 
 
 This script will start tracking Ethereum deposits and processing them as described in the main.py file.
