@@ -14,7 +14,7 @@ The Deposit Tracker - Ethereum monitors and records Ethereum deposits on the Bea
 
 ## File Structure
 
-```bash
+
 deposit-tracker-ethereum
 |
 |-- deposit_tracker
@@ -39,15 +39,15 @@ bash
 Copy code
 python -m venv venv
 venv\Scripts\activate
+
 3. Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
+
 4. Configure Environment Variables
 Create a .env file in the root directory with the following variables:
 
-env
-Copy code
 ALCHEMY_API_KEY=your_alchemy_api_key
 DATABASE_URL=your_postgresql_database_url
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
@@ -58,17 +58,19 @@ DATABASE_URL: PostgreSQL connection URL in the format postgresql+psycopg2://post
 TELEGRAM_BOT_TOKEN: Create a Telegram bot and get the token using BotFather.
 TELEGRAM_RECIPIENT_IDS: Comma-separated list of Telegram user IDs to receive alerts. Use userinfobot in Telegram to get user IDs.
 DEPOSIT_THRESHOLD: Optional. Set a deposit amount threshold to receive alerts for large transactions only.
+
 5. Set Up PostgreSQL Database
 Download PostgreSQL from PostgreSQL Downloads.
 The database schema will be created automatically when you run main.py.
+
 6. Configure Grafana
 Download Grafana from Grafana Downloads.
 Access Grafana at http://localhost:3000.
 Import the Grafana configuration JSON file located at grafana/dashboard_config.json to set up the dashboards.
 Customize the panels to include metrics such as deposit count, average fees, and volume trends.
+
 7. Run the Application
-bash
-Copy code
+   
 python deposit_tracker/main.py
 Alerts and Monitoring
 Telegram Alerts: Notifications are sent for each deposit or when deposits exceed a defined threshold.
@@ -89,9 +91,9 @@ Multi-language support for alerts and dashboards.
 Contributing
 Contributions are welcome! Fork the repository and submit a pull request with your changes.
 
-Copy code
 
 
+```bash
 
 
 
