@@ -72,13 +72,13 @@ pip install -r requirements.txt
 ### 4. Configure Environment Variables
 
 Create a .env file in the root directory with the following variables:
-
+```bash
 env
 ALCHEMY_API_KEY=your_alchemy_api_key
 DATABASE_URL=your_postgresql_database_url
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 TELEGRAM_RECIPIENT_IDS=comma_separated_recipient_ids
-
+```
 
 - ALCHEMY_API_KEY: Get your Alchemy API key for Ethereum here https://dashboard.alchemy.com
 - DATABASE_URL: PostgreSQL connection URL is ostgresql+psycopg2://postgres:<your_user_name>@localhost/deposits" (After downloading PostgreSQL Refer step 5)
