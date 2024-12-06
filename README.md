@@ -72,7 +72,7 @@ pip install -r requirements.txt
 ### 4. Configure Environment Variables
 
 Create a .env file in the root directory with the following variables:
-```python
+```env
 ALCHEMY_API_KEY=your_alchemy_api_key
 DATABASE_URL=your_postgresql_database_url
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
