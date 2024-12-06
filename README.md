@@ -73,7 +73,6 @@ pip install -r requirements.txt
 
 Create a .env file in the root directory with the following variables:
 ```bash
-env
 ALCHEMY_API_KEY=your_alchemy_api_key
 DATABASE_URL=your_postgresql_database_url
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
