@@ -1,6 +1,5 @@
 # Deposit Tracker - Ethereum 
 
-[![Copy Code](https://img.shields.io/badge/Copy_Code-blue?style=flat&logo=github)](https://github.com/<your-repo>/)
 
 ## Project Overview
 
@@ -79,6 +78,17 @@ ALCHEMY_API_KEY=your_alchemy_api_key
 DATABASE_URL=your_postgresql_database_url
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 TELEGRAM_RECIPIENT_IDS=comma_separated_recipient_ids
+
+### 4. Configure Environment Variables
+
+Create a `.env` file in the root directory with the following variables:
+
+ALCHEMY_API_KEY=your_alchemy_api_key
+DATABASE_URL=your_postgresql_database_url
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+TELEGRAM_RECIPIENT_IDS=comma_separated_recipient_ids
+DEPOSIT_THRESHOLD=your_deposit_threshold  # Optional: Notify deposits above a specific amount
+
 
 
 - ALCHEMY_API_KEY: Get your Alchemy API key for Ethereum here https://dashboard.alchemy.com
