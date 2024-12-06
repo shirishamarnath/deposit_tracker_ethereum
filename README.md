@@ -19,7 +19,7 @@ The Deposit tracker - Ethereum  monitors and records Ethereum deposits on the Be
   
 
 ## File Structure
-bash
+```bash
 ethereum-deposit-tracker
 |
 |-- deposit_tracker
@@ -37,7 +37,7 @@ ethereum-deposit-tracker
 |   |-- alert.py
 |
 |-- requirements.txt
-
+```
 
 
 ## Installation and Setup
