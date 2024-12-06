@@ -1,5 +1,7 @@
 # Deposit Tracker - Ethereum 
 
+[![Copy Code](https://img.shields.io/badge/Copy_Code-blue?style=flat&logo=github)](https://github.com/<your-repo>/)
+
 ## Project Overview
 
 The Deposit Tracker - Ethereum  monitors and records Ethereum deposits on the Beacon Deposit Contract. It tracks deposits, stores data in a PostgreSQL database, sends alerts via Telegram, and configures Grafana dashboards for visualizing the data.
