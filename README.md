@@ -51,23 +51,23 @@ ethereum-deposit-tracker
 
 ### 1. Clone the Repository
 
-bash
+```bash
 git clone <repository-url>
 cd ethereum-deposit-tracker
-
+```
 
 ### 2. Set Up a Virtual Environment
 
-bash
+```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 
 ### 3. Install Dependencies
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 4. Configure Environment Variables
 
@@ -99,10 +99,10 @@ TELEGRAM_RECIPIENT_IDS=comma_separated_recipient_ids
 
 ### 7. Run the Application
 
-
+```bash
 python deposit_tracker/main.py
-
-## Telegram Alert Image
+```
+## Telegram bot 
 
 
 
